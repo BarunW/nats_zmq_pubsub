@@ -6,10 +6,12 @@ import (
 	"time"
 
 	"github.com/nats-io/nats.go"
+	"github.com/nats-io/nats.go/jetstream"
 )
 
 type nats_ struct{
     Conn *nats.Conn
+    JS jetstream.JetStream
 }
 
 func NewNats() (*nats_, error) {
@@ -31,7 +33,7 @@ func(n *nats_) Publish(subj string, data interface{},
         slog.Error("NATS Error In publishing", "Details", err.Error())
         return
     }
-    fmt.Println(subj, time.Since(now))
+    fmt.Println("NATS", subj, time.Since(now))
     
 }
 
@@ -39,7 +41,7 @@ func(n *nats_) Subscribe(subj string) {
     _, err := n.Conn.Subscribe(subj, func(msg *nats.Msg){
        fmt.Println(subj)
        fmt.Println(string(msg.Data))
-       fmt.Println("-----------------------------------------------------------")
+       fmt.Println("----------------------------------------------------")
     })
     if err != nil{
        slog.Info("Error SUBS", "Details", err.Error()) 

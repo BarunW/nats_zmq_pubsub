@@ -1,12 +1,15 @@
 package main
 
 import (
+	"benchmark/KAFKA"
 	nats_ "benchmark/NATS"
 	zmq "benchmark/ZMQ"
 	"benchmark/models"
 	"benchmark/streams"
 	"log/slog"
 	"time"
+
+	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
 )
 
 func NATSPubSub() {
@@ -16,13 +19,29 @@ func NATSPubSub() {
     }   
     <-time.After(1 * time.Second) 
 
-    go streams.GenerateStream(n, "stream-data", stream, 10 * time.Second)
-    go streams.GenerateStream(n, "camera-data", camera, 11 * time.Second) 
+    go streams.GenerateStream(n, "stream-data", stream, 10 * time.Minute)
+    go streams.GenerateStream(n, "camera-data", camera, 10 * time.Minute) 
     
     
     go n.Subscribe("stream-data")
     go n.Subscribe("camera-data")
-    <- time.After(20 * time.Second)
+    <- time.After(605 * time.Second)
+}
+
+func KakfaPubSub(){
+    kf, err := KAFKA.NewKafka( kafka.ConfigMap{ "bootstrap.servers": "localhost:9092" } ) 
+    if err != nil{
+        slog.Error("Failed to initiate the kafka PUB-SUB")
+        return
+    }
+    <-time.After(1 * time.Second) 
+
+    go streams.GenerateStream(kf, "stream-data", stream, 1 * time.Minute)
+    go kf.Subscribe("stream-data")
+
+    go streams.GenerateStream(kf, "camera-data", camera, 1 * time.Minute)
+    go kf.Subscribe("camera-data")
+    <- time.After(62 * time.Second)
 }
 
 func ZeroMQPubSub() error{
@@ -37,20 +56,23 @@ func ZeroMQPubSub() error{
         z.Subscriber.Close()
     }()
     
-    go streams.GenerateStream(z, "stream-data", stream, 10 * time.Second)
-    go streams.GenerateStream(z, "camera-data", stream, 10 * time.Second)
-    go z.Subscribe("stream-data", 10 * time.Second) 
-    go z.Subscribe("camera-data", 10 * time.Second)
-    <- time.After(13 * time.Second)
+    go streams.GenerateStream(z, "stream-data", stream, 1 * time.Minute)
+    go streams.GenerateStream(z, "camera-data", stream, 1 * time.Minute)
+    go z.Subscribe("stream-data", 1 * time.Minute) 
+    go z.Subscribe("camera-data", 1 * time.Minute)
+    <- time.After(1 * time.Minute)
     return nil
 }
 
 func main(){
-    err := ZeroMQPubSub()
-    if err != nil{
-        slog.Error("Failed to do pub sub on ZeroMq", "Deatils", err.Error())
-        return 
-    }
+//    err := ZeroMQPubSub()
+//    if err != nil{
+//        slog.Error("Failed to do pub sub on ZeroMq", "Deatils", err.Error())
+//        return 
+//    }
+//     NATSPubSub()
+    KakfaPubSub()
+    
 }
 
 var camera models.Camera = models.Camera{

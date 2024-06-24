@@ -15,8 +15,8 @@ type zeroMq struct{
 }
 
 
-func(z *zeroMq) Publish(announcement string, data interface{}, serializeFunc func(i interface{})([]byte, error)){
-   // now := time.Now()
+func(z *zeroMq) Publish(announcement string, data interface{}, serializeFunc func(i interface{})([]byte, error)){   
+    now := time.Now()
     sub := []byte(announcement) 
     dataByt, _ := serializeFunc(data)
     _, err := z.Publisher.SendBytes(append(sub, dataByt...), 0)
@@ -24,33 +24,32 @@ func(z *zeroMq) Publish(announcement string, data interface{}, serializeFunc fun
         slog.Error("Unable to publish data", "Details", err.Error())
         return
     }
-    // fmt.Println("ZMQ", announcement, time.Since(now))
+    fmt.Println("ZMQ", announcement, time.Since(now))
 }
 
 func(z* zeroMq) Subscribe(announcement string, dur time.Duration) {
-    timer := time.NewTimer(dur)
+//    timer := time.NewTimer(dur)
     err := z.Subscriber.SetSubscribe(announcement)
     if err != nil{
         slog.Error("Failed to subscribe to this announcement", "details", err.Error())
         return
     }
-    outer:
+//   outer:
     for {
-        select{
-        case <-timer.C:
-            break outer
-        default:
+//        select{
+//        case <-timer.C:
+//            break outer
+//        default:
             message, err := z.Subscriber.RecvBytes(0)
             if err != nil {
                 slog.Error("Failed to recieved message:", "Details", err.Error())
-                return
             }
             fmt.Println(announcement)
             fmt.Println("Received:", string(message))
             fmt.Println("------------------------")
 
         }
-    }
+//    }
 
 }
 

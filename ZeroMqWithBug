@@ -1,0 +1,617 @@
+λ archway benchmark → λ git main* → go run .
+ZMQ camera-data 550.578µs
+ZMQ stream-data 688.816µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:02:55.113569072+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:02:55.113569202+05:30","CreatedAT":"2024-06-21T10:02:55.113569135+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:02:55.113569072+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:02:55.113569202+05:30","CreatedAT":"2024-06-21T10:02:55.113569135+05:30"}
+------------------------
+ZMQ stream-data 46.453µs
+ZMQ camera-data 38.931µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:02:55.113569072+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:02:55.113569202+05:30","CreatedAT":"2024-06-21T10:02:55.113569135+05:30"}
+------------------------
+ZMQ stream-data 155.021µs
+ZMQ camera-data 104.67µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:02:55.113569072+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:02:55.113569202+05:30","CreatedAT":"2024-06-21T10:02:55.113569135+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:02:55.113569072+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:02:55.113569202+05:30","CreatedAT":"2024-06-21T10:02:55.113569135+05:30"}
+------------------------
+ZMQ stream-data 129.326µs
+ZMQ camera-data 174.319µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:02:55.113569072+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:02:55.113569202+05:30","CreatedAT":"2024-06-21T10:02:55.113569135+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:02:55.113569072+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:02:55.113569202+05:30","CreatedAT":"2024-06-21T10:02:55.113569135+05:30"}
+------------------------
+ZMQ camera-data 80.157µs
+ZMQ stream-data 148.53µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:02:55.113569072+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:02:55.113569202+05:30","CreatedAT":"2024-06-21T10:02:55.113569135+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:02:55.113569072+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:02:55.113569202+05:30","CreatedAT":"2024-06-21T10:02:55.113569135+05:30"}
+------------------------
+ZMQ stream-data 102.019µs
+ZMQ camera-data 93.463µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:02:55.113569072+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:02:55.113569202+05:30","CreatedAT":"2024-06-21T10:02:55.113569135+05:30"}
+------------------------
+ZMQ camera-data 58.349µs
+ZMQ stream-data 119.671µs
+Assertion failed: check () (/usr/src/debug/zeromq/zeromq/src/msg.cpp:387)
+signal: aborted (core dumped)
+λ archway benchmark → λ git main* → go run .
+ZMQ camera-data 245.614µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:23.544559287+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:23.544559407+05:30","CreatedAT":"2024-06-21T10:05:23.544559347+05:30"}
+------------------------
+ZMQ stream-data 616.673µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:23.544559287+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:23.544559407+05:30","CreatedAT":"2024-06-21T10:05:23.544559347+05:30"}
+------------------------
+ZMQ stream-data 52.347µs
+ZMQ camera-data 95.864µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:23.544559287+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:23.544559407+05:30","CreatedAT":"2024-06-21T10:05:23.544559347+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:23.544559287+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:23.544559407+05:30","CreatedAT":"2024-06-21T10:05:23.544559347+05:30"}
+------------------------
+ZMQ stream-data 75.013µs
+ZMQ camera-data 51.775µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:23.544559287+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:23.544559407+05:30","CreatedAT":"2024-06-21T10:05:23.544559347+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:23.544559287+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:23.544559407+05:30","CreatedAT":"2024-06-21T10:05:23.544559347+05:30"}
+------------------------
+ZMQ stream-data 125.967µs
+ZMQ camera-data 190.897µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:23.544559287+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:23.544559407+05:30","CreatedAT":"2024-06-21T10:05:23.544559347+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:23.544559287+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:23.544559407+05:30","CreatedAT":"2024-06-21T10:05:23.544559347+05:30"}
+------------------------
+ZMQ stream-data 67.169µs
+ZMQ camera-data 143.529µs
+stream-data
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:23.544559287+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:23.544559407+05:30","CreatedAT":"2024-06-21T10:05:23.544559347+05:30"}
+------------------------
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:23.544559287+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:23.544559407+05:30","CreatedAT":"2024-06-21T10:05:23.544559347+05:30"}
+------------------------
+ZMQ stream-data 140.291µs
+ZMQ camera-data 208.82µs
+Assertion failed: check () (/usr/src/debug/zeromq/zeromq/src/msg.cpp:387)
+signal: aborted (core dumped)
+λ archway benchmark → λ git main* → go run .
+ZMQ camera-data 804.452µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:25.622885354+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:25.622885481+05:30","CreatedAT":"2024-06-21T10:05:25.622885419+05:30"}
+------------------------
+ZMQ stream-data 1.433893ms
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:25.622885354+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:25.622885481+05:30","CreatedAT":"2024-06-21T10:05:25.622885419+05:30"}
+------------------------
+ZMQ stream-data 71.797µs
+ZMQ camera-data 131.968µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:25.622885354+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:25.622885481+05:30","CreatedAT":"2024-06-21T10:05:25.622885419+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:25.622885354+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:25.622885481+05:30","CreatedAT":"2024-06-21T10:05:25.622885419+05:30"}
+------------------------
+ZMQ stream-data 109.12µs
+ZMQ camera-data 193.693µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:25.622885354+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:25.622885481+05:30","CreatedAT":"2024-06-21T10:05:25.622885419+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:25.622885354+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:25.622885481+05:30","CreatedAT":"2024-06-21T10:05:25.622885419+05:30"}
+------------------------
+ZMQ stream-data 155.291µs
+ZMQ camera-data 248.785µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:25.622885354+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:25.622885481+05:30","CreatedAT":"2024-06-21T10:05:25.622885419+05:30"}
+------------------------
+ZMQ stream-data 297.884µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:25.622885354+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:25.622885481+05:30","CreatedAT":"2024-06-21T10:05:25.622885419+05:30"}
+------------------------
+ZMQ camera-data 3.307249ms
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:25.622885354+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:25.622885481+05:30","CreatedAT":"2024-06-21T10:05:25.622885419+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:25.622885354+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:25.622885481+05:30","CreatedAT":"2024-06-21T10:05:25.622885419+05:30"}
+------------------------
+ZMQ stream-data 39.514µs
+ZMQ camera-data 23.971µs
+malloc(): unsorted double linked list corrupted
+signal: aborted (core dumped)
+λ archway benchmark → λ git main* → go run .
+ZMQ camera-data 1.15551ms
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+ZMQ stream-data 1.864759ms
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ stream-data 143.635µs
+ZMQ camera-data 106.668µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ camera-data 104.619µs
+ZMQ stream-data 88.515µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ camera-data 229.301µs
+ZMQ stream-data 124.148µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ stream-data 154.472µs
+ZMQ camera-data 140.774µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ stream-data 27.697µs
+ZMQ camera-data 45.532µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ stream-data 143.978µs
+ZMQ camera-data 102.288µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ camera-data 62.713µs
+ZMQ stream-data 21.588µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ camera-data 70.599µs
+ZMQ stream-data 146.435µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ camera-data 159.839µs
+ZMQ stream-data 88.466µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ camera-data 55.028µs
+ZMQ stream-data 94.5µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ stream-data 91.614µs
+ZMQ camera-data 46.396µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:27.63080859+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:27.630808718+05:30","CreatedAT":"2024-06-21T10:05:27.630808653+05:30"}
+------------------------
+ZMQ camera-data 35.947µs
+ZMQ stream-data 63.443µs
+Assertion failed: check () (/usr/src/debug/zeromq/zeromq/src/msg.cpp:387)
+signal: aborted (core dumped)
+λ archway benchmark → λ git main* → go run .
+ZMQ camera-data 832.184µs
+ZMQ stream-data 907.774µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:29.674953339+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:29.674953462+05:30","CreatedAT":"2024-06-21T10:05:29.6749534+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:29.674953339+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:29.674953462+05:30","CreatedAT":"2024-06-21T10:05:29.6749534+05:30"}
+------------------------
+ZMQ camera-data 344.455µs
+ZMQ stream-data 592.651µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:29.674953339+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:29.674953462+05:30","CreatedAT":"2024-06-21T10:05:29.6749534+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:29.674953339+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:29.674953462+05:30","CreatedAT":"2024-06-21T10:05:29.6749534+05:30"}
+------------------------
+ZMQ stream-data 303.94µs
+ZMQ camera-data 245.015µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:29.674953339+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:29.674953462+05:30","CreatedAT":"2024-06-21T10:05:29.6749534+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:29.674953339+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:29.674953462+05:30","CreatedAT":"2024-06-21T10:05:29.6749534+05:30"}
+------------------------
+ZMQ camera-data 192.805µs
+ZMQ stream-data 275.429µs
+Assertion failed: check () (/usr/src/debug/zeromq/zeromq/src/msg.cpp:387)
+signal: aborted (core dumped)
+λ archway benchmark → λ git main* → go run .
+ZMQ stream-data 249.801µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+ZMQ camera-data 636.008µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+ZMQ stream-data 53.149µs
+ZMQ camera-data 48.925µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+ZMQ camera-data 80.643µs
+ZMQ stream-data 69.941µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+ZMQ camera-data 70.799µs
+ZMQ stream-data 116.161µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+ZMQ camera-data 354.214µs
+ZMQ stream-data 463.829µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+ZMQ camera-data 145.524µs
+ZMQ stream-data 95.285µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+ZMQ camera-data 182.186µs
+ZMQ stream-data 94.776µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+ZMQ camera-data 169.512µs
+ZMQ stream-data 244.57µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+ZMQ stream-data 157.023µs
+ZMQ camera-data 81.201µs
+ZMQ camera-data 82.441µs
+ZMQ stream-data 91.59µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:31.4385377+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:31.438537847+05:30","CreatedAT":"2024-06-21T10:05:31.438537765+05:30"}
+------------------------
+ZMQ stream-data 116.577µs
+ZMQ camera-data 151.605µs
+Assertion failed: check () (/usr/src/debug/zeromq/zeromq/src/msg.cpp:387)
+signal: aborted (core dumped)
+λ archway benchmark → λ git main* → go run .
+ZMQ camera-data 277.623µs
+ZMQ stream-data 319.156µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ stream-data 38.689µs
+ZMQ camera-data 61.295µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ camera-data 139.788µs
+ZMQ stream-data 85.832µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+------------------------
+ZMQ stream-data 90.212µs
+ZMQ camera-data 85.089µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ camera-data 160.653µs
+ZMQ stream-data 71.585µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ camera-data 277.05µs
+ZMQ stream-data 102.338µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ stream-data 39.58µs
+ZMQ camera-data 64.403µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ camera-data 262.675µs
+ZMQ stream-data 185.144µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ camera-data 206.488µs
+ZMQ stream-data 140.359µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ stream-data 190.961µs
+ZMQ camera-data 119.63µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ camera-data 42.317µs
+ZMQ stream-data 55.918µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ stream-data 72.683µs
+ZMQ camera-data 41.595µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ camera-data 123.865µs
+ZMQ stream-data 76.685µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ stream-data 86.857µs
+ZMQ camera-data 161.51µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ stream-data 217.51µs
+ZMQ camera-data 148.992µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:32.988374597+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:32.988374715+05:30","CreatedAT":"2024-06-21T10:05:32.988374656+05:30"}
+------------------------
+ZMQ camera-data 146.769µs
+ZMQ stream-data 127.096µs
+Assertion failed: check () (/usr/src/debug/zeromq/zeromq/src/msg.cpp:387)
+signal: aborted (core dumped)
+λ archway benchmark → λ git main* → go run .
+ZMQ stream-data 401.723µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 895.867µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 59.809µs
+ZMQ stream-data 69.718µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 95.568µs
+ZMQ stream-data 238.531µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 74.344µs
+ZMQ stream-data 133.282µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 327.111µs
+ZMQ stream-data 401.653µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 123.827µs
+ZMQ camera-data 90.769µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 85.701µs
+ZMQ camera-data 59.248µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 164.55µs
+ZMQ camera-data 109.152µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 137.221µs
+ZMQ camera-data 108.052µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 116.408µs
+ZMQ stream-data 279.678µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 137.16µs
+ZMQ camera-data 339.285µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 20.846µs
+ZMQ stream-data 41.491µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 105.844µs
+ZMQ camera-data 89.335µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 38.152µs
+ZMQ stream-data 412.943µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 10.466µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 891.644µs
+ZMQ stream-data 63.434µs
+ZMQ camera-data 18.917µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 54.088µs
+ZMQ camera-data 21.567µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 16.259µs
+ZMQ stream-data 115.345µs
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 28.624µs
+ZMQ stream-data 46.686µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 49.958µs
+ZMQ camera-data 29.754µs
+stream-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 135.447µs
+ZMQ camera-data 127.31µs
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+camera-data
+Received: stream-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ camera-data 293.808µs
+ZMQ stream-data 576.325µs
+stream-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+camera-data
+Received: camera-data{"StreamId":"RandomStream","UserId":41,"CameraId":"RandomCameraId010","ProvenanceStreamId":"IDK42","SourceServerId":1,"DestinationServerId":2,"ProcessId":4,"StreamName":"RandomStream","StreamUrl":"HelloWorld","StreamType":"RealTime","Type":"IDK","IsPublic":true,"IsActive":true,"IsPublishing":true,"IsStable":true,"TotalClients":5,"Codec":"h.264","Resolution":"1080 * 1920","FrameRate":30,"BandwidthIn":3000,"BandwidthOut":5000,"BytesIn":1500,"BytesOut":1500,"ActiveTime":30,"LastAccessed":"2024-06-21T10:05:34.828905817+05:30","LastActive":"0001-01-01T00:00:00Z","UpdatedAt":"2024-06-21T10:05:34.828905964+05:30","CreatedAT":"2024-06-21T10:05:34.828905884+05:30"}
+------------------------
+ZMQ stream-data 49.692µs
+ZMQ camera-data 41.986µs
+Assertion failed: check () (/usr/src/debug/zeromq/zeromq/src/msg.cpp:387)
+signal: aborted (core dumped)
+λ archway benchmark → λ git main* → 
