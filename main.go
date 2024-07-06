@@ -5,6 +5,7 @@ import (
 	nats_ "benchmark/NATS"
 	zmq "benchmark/ZMQ"
 	"benchmark/models"
+	"benchmark/protos"
 	"benchmark/streams"
 	"log/slog"
 	"time"
@@ -28,15 +29,17 @@ func NATSPubSub() {
     <- time.After(605 * time.Second)
 }
 
+
 func KakfaPubSub(){
     kf, err := KAFKA.NewKafka( kafka.ConfigMap{ "bootstrap.servers": "localhost:9092" } ) 
     if err != nil{
         slog.Error("Failed to initiate the kafka PUB-SUB")
         return
     }
+
     <-time.After(1 * time.Second) 
 
-    go streams.GenerateStream(kf, "stream-data", stream, 1 * time.Minute)
+    go streams.GenerateStream(kf, "frame-data", stream, 1 * time.Minute)
     go kf.Subscribe("stream-data")
 
     go streams.GenerateStream(kf, "camera-data", camera, 1 * time.Minute)
@@ -74,6 +77,8 @@ func main(){
     KakfaPubSub()
     
 }
+
+
 
 var camera models.Camera = models.Camera{
     CameraId: "RandomCameraId010",

@@ -6,6 +6,7 @@ require (
 	github.com/confluentinc/confluent-kafka-go/v2 v2.4.0
 	github.com/nats-io/nats.go v1.36.0
 	github.com/pebbe/zmq4 v1.2.11
+	google.golang.org/protobuf v1.33.0
 )
 
 require (

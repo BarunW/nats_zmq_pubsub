@@ -4,6 +4,9 @@ import (
 	"encoding/json"
 	"log/slog"
 	"time"
+
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 
@@ -23,11 +26,22 @@ func SerializeToJson(i interface{}) ([]byte, error){
     return byte, nil
 }
 
+func SerializeToProtoBuf(i interface{}) ([]byte, error){
+    msg := i.(protoreflect.ProtoMessage) 
+    byte, err := proto.Marshal(msg)
+    if err != nil {
+        slog.Error("Unable to serialize the proto message", "Details", err.Error())
+        return nil, err
+    }
+
+    return byte, nil
+}
+
 
 func GenerateStream(msgChannel MessagingChannel, sub string, 
 data interface{}, streamDuration time.Duration){  
     timer := time.NewTimer(streamDuration)
-    ticker := time.NewTicker(20 * time.Millisecond) 
+    ticker := time.NewTicker(120 * time.Millisecond) 
     outer:
     for {
         select{
@@ -38,3 +52,9 @@ data interface{}, streamDuration time.Duration){
         }
     }
 }
+
+func GenerateStream2(publisher MessagingChannel, topic string,
+    msgChan chan <- interface{}, streamDuration time.Duration){
+
+}
+    
