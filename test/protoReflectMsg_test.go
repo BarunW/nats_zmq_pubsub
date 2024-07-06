@@ -2,6 +2,7 @@ package test
 
 import (
 	"benchmark/protos"
+	"benchmark/streams"
 	"fmt"
 	"io"
 	"os"
@@ -32,5 +33,12 @@ func TestProtoReflectMessage(t *testing.T){
            FrameNumber: 1,
         },
     }
-    fmt.Printf("%+v", fd.ProtoReflect())
+
+    msgByt, sErr := streams.SerializeToProtoBuf(&fd)
+    if sErr != nil{
+        fmt.Println(err.Error())
+        t.Fail()
+    }
+
+    fmt.Printf("%+v", msgByt)
 }
