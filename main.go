@@ -7,10 +7,15 @@ import (
 	"benchmark/models"
 	"benchmark/protos"
 	"benchmark/streams"
+	"fmt"
+	"io"
 	"log/slog"
+	"os"
 	"time"
 
 	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/types/known/timestamppb"
 )
 
 func NATSPubSub() {
@@ -29,6 +34,42 @@ func NATSPubSub() {
     <- time.After(605 * time.Second)
 }
 
+func PullTheFrame(msg chan <- protoreflect.ProtoMessage){    
+    ticker := time.NewTicker(200 * time.Millisecond) 
+    counter := 1
+    for range ticker.C{
+        now := time.Now() 
+        path := fmt.Sprintf("/home/dbarun/CDPG/frames/frame_%d.png", counter)
+        fmt.Println(path)
+        f, err := os.Open(path)
+        if err != nil{
+            slog.Error("Failed to open the file", "Details", err.Error())
+            return
+        }
+        counter++
+
+        byt, err := io.ReadAll(f)
+        if err != nil{
+            slog.Error("Failed to read the file", "Details", err.Error())
+            return
+        }
+        fmt.Println("Upto Read--------------->", time.Since(now))  
+        closingTime := time.Now()
+        f.Close()
+        fmt.Println("File close time", time.Since(closingTime))
+        
+        fd := protos.FrameData{
+            Data: byt,
+            MetaData: &protos.MetaData{
+                Timestamp: timestamppb.Now(), 
+                FrameNumber: 1,
+            },
+        }
+
+        msg <- &fd  
+    }   
+}
+
 
 func KakfaPubSub(){
     kf, err := KAFKA.NewKafka( kafka.ConfigMap{ "bootstrap.servers": "localhost:9092" } ) 
@@ -36,15 +77,46 @@ func KakfaPubSub(){
         slog.Error("Failed to initiate the kafka PUB-SUB")
         return
     }
+    
+     msgChan := make(chan protoreflect.ProtoMessage, 8)
+     defer close(msgChan)
+     go PullTheFrame(msgChan)
+ 
+     go streams.GenerateStream2(kf, "frame-data", msgChan, 1 * time.Minute)
+    
+    go kf.Subscribe("frame-data")
 
-    <-time.After(1 * time.Second) 
-
-    go streams.GenerateStream(kf, "frame-data", stream, 1 * time.Minute)
-    go kf.Subscribe("stream-data")
-
-    go streams.GenerateStream(kf, "camera-data", camera, 1 * time.Minute)
-    go kf.Subscribe("camera-data")
     <- time.After(62 * time.Second)
+}
+
+func KafkaReplay(){ 
+    now := time.Now()
+    topic := "frame-data"
+    timeForReplayFunc := time.Now()
+    fd, err := KAFKA.Replay(&topic)
+    if err != nil{
+        return
+    }
+    fmt.Println("Total time taken for replay func", time.Since(timeForReplayFunc))
+    
+    fOpenTime := time.Now()
+    f, err := os.OpenFile("output.png", os.O_CREATE | os.O_WRONLY, os.ModePerm)
+    if err != nil{
+        slog.Error("Unable to open file output.png", "Details", err.Error())
+        return
+    }
+    defer f.Close()
+    fmt.Println("File Open Time", time.Since(fOpenTime))
+    
+    writeTime := time.Now()
+    n, err := f.Write(fd.Data)
+    if err != nil{
+        slog.Error("Failed to write the data to output.png", "Details", err.Error())
+    }
+    fmt.Println("Write Time", time.Since(writeTime))
+    fmt.Println(fd.MetaData.Timestamp.AsTime().Date())
+    fmt.Println("No of bytes return", n)
+    fmt.Println("Overall Duration to get a message using offset", time.Since(now))
 }
 
 func ZeroMQPubSub() error{
@@ -74,8 +146,8 @@ func main(){
 //        return 
 //    }
 //     NATSPubSub()
-    KakfaPubSub()
-    
+      KakfaPubSub()
+     //KafkaReplay()   
 }
 
 

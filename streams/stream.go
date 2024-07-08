@@ -2,6 +2,7 @@ package streams
 
 import (
 	"encoding/json"
+	"fmt"
 	"log/slog"
 	"time"
 
@@ -26,9 +27,15 @@ func SerializeToJson(i interface{}) ([]byte, error){
     return byte, nil
 }
 
-func SerializeToProtoBuf(i interface{}) ([]byte, error){
-    msg := i.(protoreflect.ProtoMessage) 
-    byte, err := proto.Marshal(msg)
+func SerializeToProtoBuf(i interface{} ) ([]byte, error){
+    switch i.(type){
+    case protoreflect.ProtoMessage:
+        break
+    default:
+        return nil, fmt.Errorf("%s", "Invalid Type")
+    }
+
+    byte, err := proto.Marshal(i.(protoreflect.ProtoMessage))
     if err != nil {
         slog.Error("Unable to serialize the proto message", "Details", err.Error())
         return nil, err
@@ -54,7 +61,16 @@ data interface{}, streamDuration time.Duration){
 }
 
 func GenerateStream2(publisher MessagingChannel, topic string,
-    msgChan chan <- interface{}, streamDuration time.Duration){
-
+    msgChan <- chan protoreflect.ProtoMessage, streamDuration time.Duration){
+    timer := time.NewTimer(streamDuration) 
+    outer:
+    for {
+        select{
+        case <-timer.C:
+            break outer
+        case msg := <- msgChan:
+             publisher.Publish(topic, msg, SerializeToProtoBuf) 
+        }
+    }
 }
     
